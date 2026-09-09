@@ -1,20 +1,25 @@
-# Exercício de Algoritmo — Estatísticas de Salário (VisualG)
+# Algorithm Exercise — Salary Statistics (VisualG)
 
-**Origem:** Prova/exercício de lógica de programação, escrito em português estruturado (pseudocódigo) para o VisualG.
+**Origin:** Programming logic exercise/test written in structured Portuguese pseudocode for VisualG.
 
-## O que o algoritmo faz
-Um laço `enquanto` lê repetidamente: nome, gênero e salário de uma pessoa, até que o usuário digite `"fim"` como nome. Durante o laço, o programa:
+## What the Algorithm Does
 
-- Guarda o nome e o salário da pessoa com **maior renda** até o momento.
-- Soma o salário de todas as pessoas (`cont_s`).
-- Conta quantas pessoas passaram pelo programa (`cont_p`).
-- Conta quantas dessas pessoas são do gênero feminino (`cont_f`).
+A `while` loop repeatedly reads a person's name, gender, and salary until the user enters `"fim"` as the name. During the loop, the program:
 
-Ao final do laço, o programa exibe:
-- A soma de todos os salários.
-- O nome e o salário da pessoa com maior renda.
-- O total de pessoas cadastradas.
-- O total de mulheres cadastradas.
+- Keeps track of the person with the **highest salary** so far.
+- Adds all salaries together (`cont_s`).
+- Counts how many people have been processed (`cont_p`).
+- Counts how many of those people are female (`cont_f`).
 
-## Arquivo
-- [`prova_de_informatica.ALG`](prova_de_informatica.ALG) — pode ser aberto diretamente no [VisualG](http://www.apoioinformatica.inf.br/produtos/visualg) para rodar o algoritmo passo a passo.
+## Output
+
+At the end of the loop, the program displays:
+
+- The sum of all salaries.
+- The name and salary of the person with the highest income.
+- The total number of people registered.
+- The total number of female people registered.
+
+## File
+
+- [`prova_de_informatica.ALG`](prova_de_informatica.ALG) — can be opened directly in VisualG to run the algorithm step by step.
